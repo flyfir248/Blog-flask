@@ -10,12 +10,15 @@
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
+    <!-- Tab icon (favicon) -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='res/favicon.png') }}">
+
     {% if title %}
         <title>Flask Blog - {{ title }}</title>
     {% else %}
         <title>Flask Blog</title>
     {% endif %}
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='res/favicon.png') }}">
+
 </head>
 <body>
     <header class="site-header">
@@ -93,7 +96,7 @@
                     <a href="https://www.linkedin.com/in/anoop-johny-30a746181/"><img src="https://pythonpythonme.netlify.app/static/res/linkedin.png" alt="LinkedIn"></a>
                     <a href="https://github.com/flyfir248"><img src="https://pythonpythonme.netlify.app/static/res/github.png" alt="GitHub"></a>
                     <a href="https://pythonpythonme.netlify.app/index.html"><img src="https://pythonpythonme.netlify.app/static/res//web.png" alt="Website"></a>
-                    <a href="https://medium.com/@anoopjohny2000"><img src="https://pythonpythonme.netlify.app/static/res//web.png" alt="Medium"></a>
+                    <a href="https://medium.com/@anoopjohny2000"><img src="https://pythonpythonme.netlify.app/static/res//medium.png" alt="Medium"></a>
                     <a href="https://www.kooapp.com/profile/anoop2DEVLJ"><img src="https://www.kooapp.com/_next/static/media/logoKuSolidOutline.1f4fa971.svg" alt="The Koo App" width="55" height="55"></a>
                 </ul>
             </div>
